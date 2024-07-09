@@ -10,7 +10,7 @@
 - [x] setup frontend
 - [x] merge backend with frontend (send request using axios to the endpoint)
 - [x] add cors in server.js backend code or proxy in vite.config.js in frontend code
-- [ ] deploy
+- [x] deploy
 
 ## Backend
 ```
@@ -25,3 +25,18 @@ cd frontend
 npm i
 npm run dev
 ```
+
+## Deploy
+```
+cd frontend
+npm run build
+```
+- move dist folder from frontend to the backend 
+- update server.js
+```
+app.use(express.static('dist))
+```
+- deploy backend folder OR
+- just upload dist folder on netlify
+
+NOTE : this is a bad practice as the changes from frontend doesn't propagate automatically
