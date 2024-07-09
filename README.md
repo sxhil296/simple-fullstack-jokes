@@ -7,9 +7,9 @@
   
 ## TODOS
 - [x] setup backend
-- [ ] setup frontend
-- [ ] merge backend with frontend (send request using axios to the endpoint)
-- [ ] add cors in server.js backend code or proxy in vite.config.js in frontend code
+- [x] setup frontend
+- [x] merge backend with frontend (send request using axios to the endpoint)
+- [x] add cors in server.js backend code or proxy in vite.config.js in frontend code
 - [ ] deploy
 
 ## Backend
